@@ -57,10 +57,10 @@ h1 {
     box-shadow: 0 0 30px rgba(255,20,147,0.6);
 }
 
-/* FOTOS */
+/* FOTOS — SEMPRE EM COLUNA */
 .photos {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* FORÇADO */
     gap: 22px;
     align-items: center;
 }
@@ -123,25 +123,6 @@ footer {
     color: white;
     margin: 25px 10px;
     font-size: 14px;
-}
-
-/* TELAS MAIORES */
-@media (min-width: 768px) {
-    .photos {
-        flex-direction: row;
-    }
-    .photo {
-        height: 200px;
-        max-width: 300px;
-    }
-    .music-box {
-        flex-direction: row;
-        justify-content: center;
-    }
-    .love-button {
-        width: auto;
-        padding: 18px 32px;
-    }
 }
 </style>
 </head>
