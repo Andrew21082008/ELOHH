@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eloah 💗</title>
+    <title>ELOHH 💗</title>
 
     <style>
         * { box-sizing: border-box; }
@@ -29,12 +29,18 @@
             100% { transform: translateY(-10vh) scale(1.3); opacity: 0; }
         }
 
+        /* TÍTULO ELOHH */
         h1 {
             text-align: center;
-            color: white;
             margin: 20px 10px 5px;
-            font-size: 32px;
-            text-shadow: 0 0 15px #ff1493;
+            font-size: 36px;
+
+            /* COR DEGRADÊ */
+            background: linear-gradient(45deg, #ffffff, #ff69b4, #ff1493);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            text-shadow: 0 0 20px rgba(255,105,180,0.8);
         }
 
         .subtitle {
@@ -142,8 +148,7 @@
     }
 </script>
 
-<h1>💗 Eloah
-    te amo 💗</h1>
+<h1>ELOHH 💗</h1>
 <p class="subtitle">Cada momento com você é eterno</p>
 
 <div class="container">
@@ -159,11 +164,11 @@
         <p>Com você, todos os dias são especiais 💕</p>
     </div>
 
-    <!-- BOTÕES -->
     <div class="music-box">
         <button class="love-button" onclick="toggleMusica()">🎶 Música</button>
+
         <a class="love-button youtube"
-           href="https://youtu.be/j_a55VGxiEU?si=FAPqiXQEDJJfqFxL"
+           href="https://youtu.be/j_a55VGxiEU"
            target="_blank">
            ▶️ Vídeo no YouTube
         </a>
